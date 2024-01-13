@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 99;
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#materi-container {
+    margin-top: 35px;
+}
+
+.materi {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    /* Garis pemisah antar materi */
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    color: #007bff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    /* Hapus properti list-style-type */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Warna dan gaya untuk poin pada list */
+li p {
+    margin: 0;
+    color: #333;
+    font-weight: normal;
+}
+
+/* Efek hover pada tautan */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Tambahkan CSS untuk halaman profil di sini */
+.profile-container {
+    max-width: 600px;
+    margin-top: 100px;
+    /* Menyesuaikan jarak atas */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    /* Agar gambar berada di tengah */
+    display: block;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.profile-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    color: #555;
+    font-size: 18px;
+    margin: 5px 0;
+}
